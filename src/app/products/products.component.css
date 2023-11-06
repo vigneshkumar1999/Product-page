@@ -1,0 +1,34 @@
+.image{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    margin-left: 25px;
+}
+.product{
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+  
+}
+.product:hover {
+    transform: scale(1.05); 
+  }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; 
+  }
+/* .title{
+   
+}
+.price{
+  
+} */

@@ -1,0 +1,13 @@
+
+<div class="div">
+  <h2 class="title">LoginForm</h2><br>
+  <label class="label">Name</label><br>
+  <input type="text" [formControl]="Name" placeholder="Enter your Name" class="input"><br>
+  <label class="label">Password</label><br>
+  <input type="password" [formControl]="Password" placeholder="Enter Your Password" class="input"><br>
+  <button (click)="userDetailsFunction() " [disabled]="!isValid()" class="button">Login</button>
+</div> 
+<div class="bottom">
+
+</div>
+  
